@@ -11,8 +11,7 @@ There are a few ways how to do it, IMO the easiest and most pleasant way is to u
 1. Watch this great 2-h [Docker Tutorial for Beginners](https://youtu.be/fqMOX6JJhGo) from the FreeCodeCamp (optional).
 2. Install Docker Desktop for macOS and start `Docker`.  
    You can check that everything is alright by executing `$ docker ps` command and not having errors.
-3. Create a Docker image.
-    - Create `Dockerfile` (doesn't matter where)
+3. Create a `Dockerfile` in the folder with your Assembly code
       ```Dockerfile
       # Dockerfile
       FROM ubuntu:latest
@@ -21,9 +20,7 @@ There are a few ways how to do it, IMO the easiest and most pleasant way is to u
       RUN apt-get install -y gcc
       RUN apt-get install -y make
       ```
-    1. Build this image via `$ docker build -t linux-image .`
-
-4. Create `docker-compose.yml` file in the folder with your Assembly code.
+4. Create `docker-compose.yml` file in the same folder as `Dockerfile`.
    ```yml
    # docker-compose.yml
    version: "3"
@@ -31,7 +28,8 @@ There are a few ways how to do it, IMO the easiest and most pleasant way is to u
        linux:
            image: linux-image
            container_name: linux-container
-
+           build:
+               context: .
            command: sleep 1000
            volumes:
                - .:/code
