@@ -12,14 +12,14 @@ There are a few ways how to do it, IMO the easiest and most pleasant way is to u
 2. Install Docker Desktop for macOS and start `Docker`.  
    You can check that everything is alright by executing `$ docker ps` command and not having errors.
 3. Create a `Dockerfile` in the folder with your Assembly code
-      ```Dockerfile
-      # Dockerfile
-      FROM ubuntu:latest
+   ```Dockerfile
+   # Dockerfile
+   FROM ubuntu:latest
 
-      RUN apt-get update
-      RUN apt-get install -y gcc
-      RUN apt-get install -y make
-      ```
+   RUN apt-get update
+   RUN apt-get install -y gcc
+   RUN apt-get install -y make
+   ```
 4. Create `docker-compose.yml` file in the same folder as `Dockerfile`.
    ```yml
    # docker-compose.yml
