@@ -34,10 +34,8 @@ There are a few ways how to do it, IMO the easiest and most pleasant way is to u
            volumes:
                - .:/code
       ```
-5. Run `$ docker-compose up`.  
-   When you have your Linux container running, you can connect to it.
-6. Connect to the container via 
-    `$ docker exec -it linux-container bash`
+5. Run `$ docker-compose up` after build is finished.
+6. Connect to the container via `$ docker exec -it linux-container bash`
 
 You are ready to go! Your code will be in the `/code/` folder. You can edit it inside a docker container and
 changes will be seen in the host and vice versa because it is a "shared folder".
@@ -111,9 +109,8 @@ The `docker-compose.yml` is a file where we define how exactly we want to run ou
 ### A Few Thing to Mention:
 
 -   As with everything in programming, you **don't** need to know **everything** about tool to use it.
--   Docker is not a rocket science, but (especially if you are pretty new to programming) probably starting with
-    reading dry documentation is not the brightest idea. There are great tutorials out there.
--   Docker makes a lot of things _so freaking much easier_. For example, I'm writing this
+-   Docker is not a rocket science, but (especially if you are pretty new to programming) probably starting with reading dry documentation is not the brightest idea. There are great tutorials out there.
+-   Docker makes a lot of things _so freaking much easier_. For example, my
     `Jekyll` website uses `Docker` because it is much faster than resolving _stupid_ gem conflicts every
     few months and making a mess of your system by installing a lot of different libraries and packages.
 
