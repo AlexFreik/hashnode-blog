@@ -12,16 +12,13 @@ with ten fingers — and go ahead!
 
 ### How To Learn
 
-For a quick start in `\LaTeX` take [a free course from the HSE (in Russian)](https://www.coursera.org/learn/latex).
-The basics could be learned in 4-5 hours, and two days off are enough for the entire course. Video lessons are better
-than thick books in the beginning.
+- I recommend this [free online introduction to `\LaTeX`](<https://www.overleaf.com/learn/latex/Free_online_introduction_to_LaTeX_(part_1)>) in three parts, made by [Overleaf](https://www.overleaf.com/). Instead of a dry book guide, they made it as a presentation. There are a lot of examples, with a focus only on the most important stuff. This introduction should take about 4-hours for you to read.  
 
-Having been said that I also recommend this [free online introduction to `\LaTeX`](<https://www.overleaf.com/learn/latex/Free_online_introduction_to_LaTeX_(part_1)>)
-in three parts, made by [Overleaf](https://www.overleaf.com/). Instead of a dry book guide, they made it as a presentation.
-There are a lot of examples, with a focus only on the most important stuff. This introduction should take about
-4-hours for you to read.
+    Also, Overleaf has great docs. Later, when you have some questions about `\LaTeX`, you can look it up in their docs.
 
-Also, Overleaf has great docs. Later, when you have some questions about `\LaTeX`, you can look it up in their docs.
+- Videos are usually the easiest way to learn, and for a quick start in `\LaTeX` take [a free course from the HSE (in Russian)](https://www.coursera.org/learn/latex).
+
+    The basics could be learned in 4-5 hours, and two days off are enough for the entire course. Video lessons are better than thick books in the beginning.
 
 ### Where To TeX
 
