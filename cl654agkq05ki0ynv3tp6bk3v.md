@@ -34,11 +34,10 @@ There are a few ways how to do it, IMO the easiest and most pleasant way is to u
            volumes:
                - .:/code
       ```
-5. Run `$ docker-compose up` after build is finished.
+5. Run `$ docker-compose up`
 6. Connect to the container via `$ docker exec -it linux-container bash`
 
-You are ready to go! Your code will be in the `/code/` folder. You can edit it inside a docker container and
-changes will be seen in the host and vice versa because it is a "shared folder".
+You are ready to go! Your code will be in the `/code/` folder. You can edit it inside a docker container and changes will be seen in the host and vice versa because it is a "shared folder".
 
 After a container has stopped (with `CTRL-C`, for example), you can start it again by repeating 5-6 steps.
 
