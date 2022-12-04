@@ -1,4 +1,4 @@
-## Learn \LaTeX
+# Learn \LaTeX
 
 Here I'll share a bit of my experience about how to learn `\LaTeX` from zero, the best
 editor for `\LaTeX` (IMO) as well as typical mistakes.
