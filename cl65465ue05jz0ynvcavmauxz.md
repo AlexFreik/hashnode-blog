@@ -1,4 +1,4 @@
-## Housing In the Netherlands For Students
+# Housing In the Netherlands For Students
 
 You passed all your exams and are going to study in the Netherlands as an International student? Good, but the biggest challenge is yet to come!
 
